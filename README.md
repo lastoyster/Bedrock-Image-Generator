@@ -1,5 +1,6 @@
 # Animated Movie Poster Design Project
-This project generates pcitures using AWS Lambda and the Stability AI Stable Diffusion model from AWS Bedrock. The generated images are stored in an S3 bucket, and a pre-signed URL is returned to access them.
+This project generates animated cinematic images using AWS Lambda and the Stability AI Stable Diffusion model from AWS Bedrock. 
+The generated images are stored in an S3 bucket, and a pre-signed URL is returned to access them.
 
 ## How It Works
 1. **Input:** A text prompt is passed through the API.
@@ -41,7 +42,6 @@ The code used in the Lambda function can be found in the [lambda_function_image_
 3. Set up the API Gateway and invoke the Lambda function using a tool like Postman.
 4. View the generated images in your S3 bucket or through the pre-signed URLs.
 
-## Reference Documentation Used for writing Lambda function 
-* Bedrock Runtime - https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock-runtime.html
-* S3 - https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html
+My Blog Article: 
+https://running-cloud.hashnode.dev/how-to-generate-animated-movie-poster-designs-using-aws-lambda-and-stable-diffusion-via-aws-bedrock
 
